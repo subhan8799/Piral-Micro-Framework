@@ -55,5 +55,3 @@ As for the application shell, the pilet can be started in debug mode using the p
 
 When navigating to [http://localhost:1234](http://localhost:1234), the application shell will be started and the content of the pilet will be shown.
 
-# Piral-Micro-Frontend
-# Piral-Micro-Framework
