@@ -1,0 +1,39 @@
+{
+  "name": "my-pilet",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "my-app": "file:../my-app/dist/emulator/my-app-1.0.0.tgz",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "tslib": "2.6.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
+    "piral-cli": "1.4.3"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade",
+    "postinstall": "pilet declaration"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "importmap": {
+    "inherit": [
+      "my-app"
+    ],
+    "imports": {}
+  },
+  "dependencies": {},
+  "source": "src/index.tsx"
+}
